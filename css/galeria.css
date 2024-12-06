@@ -1,0 +1,76 @@
+
+body{
+	background-image: url(../img/mundito.gif);
+	background-size: cover;
+	background-position: center;
+
+}
+	
+h1{
+	color: white;
+	text-shadow: 1px  2px black ;
+	text-align: center;
+}
+
+div.galeria{
+	margin: 10px 20px;
+	box-shadow: 0 4px 8px  0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	float: right;
+	width:292px ;
+	border-radius: 10px;
+}
+
+div.galeria img{
+	width: 100%;
+	height: auto;
+}
+
+div.galeria:hover{
+	border: 5px solid lightcoral;
+	transform: translatey(-10px) ;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+div.pie{
+	text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+    background-color: white;
+}
+
+/**----------------------------------------------------------------------**/
+
+section{
+	margin: 25%;
+}
+div.galerias{
+	margin: 20px 10px;
+    display: ´flex;
+	box-shadow: 0 4px 8px  0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	float: left;
+	width:293px ;
+	border-radius: 10px;
+}
+
+div.galerias img{
+	width: 100%;
+	height: auto;
+}
+
+div.galerias:hover{
+	border: 5px solid lightcoral;
+	transform: translatey(-10px) ;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+/**----------------------------------------------------------------------**/
+.btn{
+	text-decoration: none;
+	border: 1px solid black;
+	background-color: lightskyblue;
+	border-radius: 4px;
+	padding: 5px;
+
+}
